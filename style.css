@@ -121,6 +121,22 @@ header {
         align-items: center;
         justify-content: center;
     }
+
+    /* Section parcours */
+    #parcours .parcours-frise {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .parcours-step {
+        background-color: #001a00;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 255, 65, 0.3);
+        border: 1px solid #00ff41;
+        font-size : 20 ;
+    }
     
     /* Section compétences */
     #competences .skills-grid {
